@@ -1,0 +1,87 @@
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 5rem auto 0 auto;
+    color: white;
+}
+h1, p, a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    line-height: .8;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-bottom: 1px solid blueviolet;
+}
+a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 0px blueviolet;
+}
+a:hover {
+    background-color: rgb(65, 16, 107);
+}
+.articulos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+article {
+    border: 1 solid black;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 0px rgb(60, 26, 75);
+    padding: 1rem;
+}
+.rebajado {
+    background-color: red;
+    color: white;
+    padding: 1rem; 
+}
+form {
+    
+}
+.campoForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    padding: 1rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+table {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    color: blue;
+}
+
+table {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+table th, table td{
+    padding: 0.5rem;
+    border: 1px solid black;
+}
