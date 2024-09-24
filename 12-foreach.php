@@ -15,12 +15,13 @@ foreach($vehiculos as $vehiculo) {
     echo $vehiculo .'<br>';
 }
 
+// recorrer arreglos asociativos
 $usuario = [
     'nombre' => 'Pepa',
     'nivel' => 2,
     'permisos' => 'Administrador',
 ];
-
+// el foreach itera sobre los valores
 foreach($usuario as $valor){
     echo $valor .'<br>';
 }
@@ -56,7 +57,7 @@ foreach($productos as $producto){
     <article>
         <p>Producto: <?php echo $producto['nombre']; ?></p>
         <p>Precio: <?php echo $producto['precio'] . ' €'; ?></p>
-        <p><?php echo $producto['disponible'] ? 'Disponible' : 'No disponible' ?></p>
+        <p><?php echo $producto['disponible'] ? 'Disponible' : 'No disponible'; ?></p>
         <?php echo $producto['oferta'] ? '<p class="rebajado">Rebajado</p>': ""; ?>
     </article>
     <?php

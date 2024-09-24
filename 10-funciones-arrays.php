@@ -38,7 +38,16 @@ echo'<pre>';
 var_dump($usuario);
 echo'</pre>';
 
-// ordenar arreglo asociativo asort arsort
+// ordenar arreglo asociativo asort por los valores y arsort
+$usuario = [
+    'nivel' => 2,
+    'nombre' => 'Pepe',
+    'permisos' => [
+        'cliente' => false,
+        'administrador' => true
+    ]
+];
+
 asort($usuario);
 echo'<pre>';
 var_dump($usuario);

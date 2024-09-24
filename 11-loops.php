@@ -18,8 +18,14 @@ echo"<br>";
 $i = 0;
 do{
     echo $i;
-    $i++;
-}while ($i <= 10);
+    $i++; //incremento
+}while ($i < 10);
+echo '<br>';
+// For
+for($i = 0 ; $i < 10 ; $i++){
+    echo $i . '<br>';
+}
+
 
 /**
     * FIZZ BUZZ
@@ -32,14 +38,18 @@ do{
 echo "<p>FIZZ BUZZ</p>";
 $n = 100;
 
-for ($i = 1; $i <= $n; $i++):
+for ($i = 1; $i <= $n; $i++){
     if($i % 15 === 0){
-    echo $i . ' - FIZZ BUZZ ';
-    }elseif($i % 3 === 0){
-    echo $i . ' - FIZZ '; 
-    }elseif($i % 5 === 0) {
-    echo $i . ' - BUZZ';
+    echo $i . ' - FIZZ BUZZ <br>';
     }
+    elseif($i % 3 === 0){ //elseif puede ir con o sin espacio else if
+        echo $i . ' - FIZZ '; 
+    }elseif($i % 5 === 0) {
+        echo $i . ' - BUZZ';
+    }else{
+        echo $i . '<br>';
+    }
+}
 endfor;
 
 echo '<p>Claude</p>';
@@ -50,6 +60,8 @@ function fizzBuzz($start, $end){
         if($i % 3 === 0) $salida .= 'FIZZ';
         if($i % 5 === 0) $salida .= 'BUZZ';
         
+        // condicional ternario
+        // condición $salida / $output === ''
         echo $salida === '' ? $i : "$i $salida";
         echo '<br>';
     }

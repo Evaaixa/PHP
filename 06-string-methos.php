@@ -20,6 +20,13 @@ echo str_replace('amarillo', 'rojo', $texto);
 // comprobar si un string existe dentro de otro
 echo strpos($texto, 'rojo');
 
+// concatenar strings
+echo 'Título: ' . $texto . ' Publicado';
+echo '<br>';
+
+// aquí hay que utilizar comillas dobles
+echo "Título {$texto} Publicado";
+
 
 
 include 'includes/footer.php';
