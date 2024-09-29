@@ -5,9 +5,10 @@ $array1 = [0, 1, 2, 3,];
 
 echo '<pre>';
 var_dump($array1);
+echo '</pre>';
 
 for ($i = 0; $i < count($array1) ; $i++);{
-    echo ' Valor de i: ' . $i . ' Contenido del array: ';
+    echo ' Valor de i: ' . $i . ' Contenido del array: ' . $array1[$i] . '<br>';
 };
 
 $array2 = [

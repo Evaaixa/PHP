@@ -8,8 +8,8 @@
 </head>
 <body>
     <nav>
-        <a href="index.php">01 Hola Mundo</a>
-        <a href="02-variables.php">02-Variables</a>
+        <a href="../01-hola-mundo.php">01 Hola Mundo</a>
+        <a href="../02-variables.php">02-Variables</a>
         <a href="03-tipos-de-datos.php">03-Tipos de datos</a>
         <a href="04-operadores.php">04-Operadores</a>
         <a href="05-comparacion.php">05-Comparación</a>
@@ -30,6 +30,7 @@
         <a href="20-matrices.php">20-Matrices</a>
     </nav>
     
-    <h1>Desarrollo Web con PHP</h1>
     <div class="container">
-        <div class="resultado">
+        <h1>Desarrollo Web con PHP</h1>
+        
+    <div class="resultado">

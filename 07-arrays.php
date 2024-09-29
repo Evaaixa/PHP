@@ -3,6 +3,8 @@ include "includes/header.php";
 
 // Declaración
 $array1 = [];
+$array2 = array();
+
 $productos = ['cocacola', 'fanta', 'agua'];
 
 // ver los elementos de un array
@@ -11,7 +13,7 @@ var_dump($productos);
 echo '</prev>';
 
 // acceder a un elemento del array
-echo $productos[0];
+echo $productos[1];
 echo '<br>';
 
 // agregar elementos

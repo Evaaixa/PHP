@@ -6,6 +6,7 @@ include "includes/header.php";
 <form action="recibir-post.php" method="POST">
     <div class="campoForm">
         <label for="nombre">Nombre:</label>
+         <!-- El atributo name es muy importante pues la variable $_GET va a contener una clave con el valor de name -->
         <input type="text" name="nombre"> 
     </div>
     <div class="campoForm">

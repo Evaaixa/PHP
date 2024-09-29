@@ -1,6 +1,7 @@
-
 <?php
+
 include "includes/header.php";
+
 echo 'Hola Mundo';
 
 

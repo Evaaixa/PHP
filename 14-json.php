@@ -34,7 +34,8 @@ $productos = [
     ];
     
 // cuando hacemos una consulta a una BBDD podemos obtener los datos en un array asociativo.
-// ese array lo transformamos a JSON para enviarlo al cliente
+// ese array lo transformamos a JSON para enviarlo al cliente o a JavaScript
+// json encode convierte el array en un string
 $productos_json = json_encode($productos, JSON_UNESCAPED_UNICODE); 
 echo '<pre>';
 var_dump( $productos_json );
